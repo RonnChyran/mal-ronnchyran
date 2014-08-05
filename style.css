@@ -1,0 +1,438 @@
+@import "https://dl.dropboxusercontent.com/u/78340470/anime.css";
+@import "http://dl.dropbox.com/u/78340470/CSSforFoxgirls.css";
+@import "topbar.css";
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:300,400);
+@import url(http://ronnchyran.com/fonts/bebas/bebas.css);
+@import url(http://ronnchyran.com/fonts/ss-social-circle/webfonts/ss-social-circle.css);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,300);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+body{
+background: url('http://static.tumblr.com/noynber/nN8n43by5/ffxv_lucis.jpg') no-repeat fixed;
+background-size: cover;
+margin: 0;
+color: #000000;
+font-size: 11.00px;
+font-family: 'Roboto Slab', Arial;
+opacity: 1;
+-webkit-transition: opacity 10s; /* For Safari 3.1 to 6.0 */
+transition: opacity 10s;
+background-color: #FFFFFF;
+}
+
+body:unresolved{
+opacity: 0; 
+display: block; 
+overflow: hidden.
+}
+
+body:before{
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background-color: rgba(0,0,0,0.2); /*dim the background*/
+}
+/*
+// Determines the positioning of your list
+*/
+
+#list_surround
+{
+margin: 0 auto;	
+width: 920px;
+padding-top: 250px;
+}
+
+/*
+// All links on your list
+*/
+
+a
+{
+color: #51819f;
+text-decoration: none;
+}
+
+a:visited
+{
+color: #51819f;
+text-decoration: none;
+}
+
+a:hover
+{
+color: #51819f;
+text-decoration: underline;
+}
+
+/*
+// Alternating row color 1 
+*/
+
+
+.td1, .td2{
+color: #000000;
+border: none !important;
+padding: 5px;
+background-color: rgba(255,255,255,0.9); 
+}
+.td1:hover, .td2:hover{
+background-color: #dedede; 
+}
+
+/*
+// This represents the "Anime Title", "Score", "# Eps" columns 
+*/
+
+.table_header
+{
+
+color: #000000;
+background-color: rgba(106,208,158, 0.95);
+padding: 2px;
+}
+
+/*
+// headerLink represents the color of the links inside the table_header 
+*/
+
+.table_headerLink
+{
+color: white;
+text-shadow: 2px 2px #A7DAF9;
+text-decoration: none;
+font-family: 'Oswald';
+}
+
+.table_header > a > strong{
+font-weight: 400;
+font-size: 2em;
+}
+
+.table_headerLink:Visited
+{
+}
+
+.table_headerLink:hover
+{
+text-decoration: none;
+color: rgb(240,240,240);
+}
+
+/*
+// Controls the select form decoration (the drop down select box)
+*/
+
+.form
+{
+border-width: 1px 1px 1px 1px;
+border-color: #ABABAB;
+border-style: solid;
+color: #000000;
+padding: 2px;
+font-size: 11.00px;
+font-family: 'Roboto', Verdana, Arial;
+}
+
+
+/* Which 'status' up top is selected? */
+
+.status_selected, .status_not_selected
+{
+color: #000000;
+border-left: 4px solid rgba(255,255,255,0) !important;
+background-color: rgba(255,255,255,0.9);
+}
+
+.status_selected > a, .status_not_selected > a
+{
+color: #b8b8b8;
+text-shadow: 2px 2px #eee;
+}
+
+.status_selected > a{
+color: #A7DAF9;
+}
+.status_selected > a:hover, .status_not_selected > a:hover
+{
+color: #A7DAF9;
+text-decoration: none;
+
+}
+
+.status_not_selected:hover, .status_selected
+{
+background-color: rgba(240,240,240,0.9);
+}
+
+
+/*
+Header classes for Currently Watching, Completed, Dropped, etc...
+*/
+
+.header_cw
+{
+
+}
+
+.header_completed
+{
+
+}
+
+.header_onhold
+{
+
+}
+
+.header_dropped
+{
+
+}
+
+.header_ptw
+{
+
+}
+
+.header_title {
+font-size: 3.5em;
+font-family: 'bebas_neueregular';
+text-shadow: 2px 2px #A7DAF9;
+color: #fff;
+}
+
+
+.category_totals,#grand_totals, #copyright
+{
+ font-family: 'Oswald';
+ background: rgba(255,255,255,0.9);
+ padding-top: 5px;
+ padding-bottom: 5px;
+ font-weight: 300;
+ width: 920px;
+text-align: center
+}
+
+
+
+/* header_al is the div surrounding "User's Anime List" at the top */
+
+.header_al
+{
+font-weight: bold;
+font-size: 16px;
+}
+
+/* header_al_links is the div with your "Profile" and "MyAnimeList home" links */
+.header_al_links
+{
+  
+}
+
+/* controls what styles you can give to all the anime titles in your list */
+.animetitle
+{
+  font-family: 'Roboto Slab', Verdana, sans-serif;
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
+/*
+copyright contains the "Producted by Garrett Gyssler" text
+DO NOT REMOVE OR HIDE THIS DIV
+IF FOUND TO BE REMOVED, YOUR LIST WILL BE REMOVED TOO
+*/
+
+#copyright
+{
+padding-top: 6px;
+text-align: center;
+margin: 0 auto;
+width: 920px;
+color: #000;
+text-transform: uppercase;
+white-space:pre;
+}
+
+div > small{
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  text-size: 10px;
+  background: none;
+  border-radius: none;
+  padding: 0;
+  color: #fff;
+}
+
+
+small{
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  text-size: 10px;
+  background: #A4C739;
+  border-radius: 5px;
+  padding: 2px 5px;
+  color: #fff;
+}
+
+tbody > tr{
+ height: 30px;
+ border: none;
+}
+
+/* THUMBNAIL SETTINGS
+Settings for the thumbnails of covers seen on your list. Height and width control the size, while margin-left and top can be added or taken away to change the position. Change the border size, type, or color, with the first border code.*/
+.hide {
+height:50px;
+width:30px;
+margin-left:33px;
+margin-top:-57px;
+background-color:rgba(248, 162, 200, 0.7);
+background-position:50% 50%;
+background-repeat:no-repeat no-repeat;
+background-size:cover;
+display:inline-block !important;
+position: absolute;
+-webkit-box-shadow: 1px 1px 0px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    1px 1px 0px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         1px 1px 0px 0px rgba(50, 50, 50, 0.75);
+}
+
+/*THUMBNAIL HOVER SETTING
+This is the setting for the cover when you point to a thumbnail. Move the cover's position with the margin codes. Change its size with the padding codes. */
+.hide:hover {
+margin-left:-150px;
+padding-right:150px;
+padding-top:220px !important;
+background-color:transparent;
+background-repeat:no-repeat no-repeat;
+background-size:cover;
+-webkit-box-shadow: 4px 4px 0px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    4px 4px 0px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         4px 4px 0px 0px rgba(50, 50, 50, 0.75);
+position:absolute;
+z-index:1;
+}
+
+
+/*THUMBNAIL HOVER FLICKER FIX
+If you reposition your covers, and notice flickering, color this red, then reload your layout. Notice where the red bar appears when you point to your covers. Move that box with this code, over the parts where you point and see flickering. Then change it back to transparent! 
+*/
+.hide:hover:after {
+background: transparent;
+content: " ";
+height: 75px;
+left: 0;
+position: absolute;
+top: 0;
+width: 210px;
+z-index: 20;
+}
+
+
+/*ANIMATION FOR ZOOM
+Change the timing of how long it takes for it zoom out here! Its set to .25 seconds by default.
+*/
+* {
+-webkit-transition:all 0.25s ease-in-out;
+transition:all 0.25s ease-in-out;
+}
+
+
+/*ROW WIDTH AND SPACING
+This will increase the height of your rows and move the anime title to the left. It might look funny on some layouts so you'll have to adjust it or ask for help! Height is the height, padding left is the space the anime title moves from the left. 
+*/
+.td1:nth-of-type(2), .td2:nth-of-type(2) {
+height: 65px;
+padding-left: 42px;
+}
+
+#mal_cs_pic{
+display: none;
+}
+
+#mal_cs_otherlinks{
+
+}
+
+#mal_control_strip{
+  color: #b8b8b8 !important;
+  background-size: contain !important;
+  height: 200px;
+  z-index: 100;
+  background-position: left center;
+}
+
+#mal_control_strip:before{
+	right: 0;
+	left: 0;
+	top: 40px;
+	margin: 0 auto;
+    content: ' ';
+    background: url(http://38.media.tumblr.com/avatar_5c6cdeb4d57e_128.png) no-repeat !important;
+	background-size: 110px, 110px !important;
+	border: 4px solid #f6f6f6;
+	width: 110px;
+	height: 110px;
+	z-index: 7;
+	position: absolute;
+	border-radius: 50%;
+	background-position: center, center !important;
+}
+#mal_control_strip:after{
+	right: 0;
+	left: 0;
+	top: 0;
+	margin: 0 auto;
+    content: ' ';
+	color: #fff;
+	font-size: 3em;
+    background-color: rgba(106,208,158, 0.95) !important;
+	width: 100%;
+	height: 250px;
+	z-index: 6;
+	position: absolute;
+	background-position: center, center !important;
+	border-bottom: 4px solid #eee;
+}
+
+#list_surround:before{
+	content: "Ron's List";
+	text-shadow: 2px 2px #A7DAF9;
+	right: 0;
+	left: 0;
+	top: 175px;
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	color: #fff;
+	font-size: 5em;
+	font-family: 'bebas_neueregular';
+	z-index: 100;
+	position: absolute;
+}
+#list_surround > table:nth-child(2){
+ width: 100%;
+ position: absolute;
+ top: 250px;
+ left: 0;
+ border-bottom: 4px solid rgba(255,255,255,0.9);
+height: 50px;
+font-family: 'bebas_neueregular';
+font-size: 2.5em;
+}
+
+.List_Lightbox{
+visibility: visible !important;
+}
+#list_surround > table > tbody > tr > td > div > small{
+visibility: collapse;
+}
+#copyright:before{
+content: 'Layout powered by dark magic - ronnchyran.com\A';
+}
