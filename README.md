@@ -1,4 +1,4 @@
 mal-ronnchyran
 ==============
 
-MyAnimeList CSS 
+This is the MyAnimeList CSS for http://myanimelist.net/animelist/ronnchyran
