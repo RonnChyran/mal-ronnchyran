@@ -433,7 +433,7 @@ visibility: visible !important;
 visibility: collapse;
 }
 #copyright:before{
-content: 'Layout powered by dark magic - ronnchyran.com\A10 - Perfection | 9 - Fantastic | 8 - Great | 7 - OK | 6 - Barely managed to finish | > 5 - Masochistic\A';
+content: 'Layout powered by dark magic - ronnchyran.com\A 10 • Perfection | 9 • Fantastic | 8 • Great | 7 • OK | 6 • Not really worth the time | > 5 • Masochistic\A';
 }
 
 #list_surround tab\le:nth-of-type(n+4):hover td:nth-of-type(3),
