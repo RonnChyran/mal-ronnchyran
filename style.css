@@ -43,7 +43,7 @@ body:before{
 {
 margin: 0 auto;	
 width: 920px;
-padding-top: 250px;
+padding-top: 260px;
 }
 
 /*
@@ -435,7 +435,7 @@ display: none;
 	font-size: 3em;
     background-color: rgba(106,208,158, 0.95) !important;
 	width: 100%;
-	height: 250px;
+	height: 260px;
 	z-index: 6;
 	position: absolute;
 	background-position: center, center !important;
@@ -475,7 +475,7 @@ display: none;
 #list_surround > table:nth-child(2){
  width: 100%;
  position: absolute;
- top: 250px;
+ top: 260px;
  left: 0;
  border-bottom: 4px solid rgba(255,255,255,0.9);
 height: 50px;
