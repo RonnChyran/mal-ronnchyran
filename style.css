@@ -457,6 +457,21 @@ display: none;
 	z-index: 100;
 	position: absolute;
 }
+
+#list_surround:after{
+	content: "ロンー カイーランのアニメリスト";
+	right: 0;
+	left: 0;
+	top: 225px;
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	color: #fff;
+	font-size: 1.7em;
+	font-family: 'Oswald';
+	z-index: 100;
+	position: absolute;
+}
 #list_surround > table:nth-child(2){
  width: 100%;
  position: absolute;
