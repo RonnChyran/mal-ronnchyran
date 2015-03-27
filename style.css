@@ -528,3 +528,15 @@ content: 'Layout powered by dark magic - ronnchyran.com\A 10 • Perfection | 9 
 .td1:nth-of-type(4) small:hover, .td2:nth-of-type(4) small:hover{
     text-decoration: underline;
 }
+
+#list_surround > table:nth-child(109) > tbody > tr:has(a[href='/anime/23273/Shigatsu_wa_Kimi_no_Uso']) :nth-child(3):after {
+  content: "11";
+  display: inline-block;
+  width: inherit;
+  height: inherit;
+  color: black;
+}
+
+#list_surround > table:nth-child(109) > tbody > tr:has(a[href='/anime/23273/Shigatsu_wa_Kimi_no_Uso']) :nth-child(3) {
+  color: transparent;
+}
